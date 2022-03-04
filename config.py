@@ -1,0 +1,16 @@
+from easydict import EasyDict as edict
+import numpy as np
+
+
+__C = edict()
+cfg = __C
+
+
+__C.LI_FUSION = edict()
+__C.LI_FUSION.ENABLE = False
+__C.LI_FUSION.IMG_FEATURES_CHANNEL = 128
+__C.LI_FUSION.IMG_CHANNELS = [3, 64, 128, 256, 512]
+__C.LI_FUSION.POINT_CHANNELS = [64, 128, 512, 1024]
+# __C.LI_FUSION.POINT_CHANNELS = [64, 128, 256, 512]
+__C.LI_FUSION.POINT_OUT_CHANNELS = [64, 128, 1024]
+__C.LI_FUSION.FUSION_CHANNELS = [64, 128, 256, 512]
