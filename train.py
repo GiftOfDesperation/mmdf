@@ -47,7 +47,7 @@ if __name__ == '__main__':
         while True:
             pass
 
-    batch_size = 2
+    batch_size = 8
     # train_dataset = RobotCarDataset(list_files=
     #                                 [r"/home/omnisky/PycharmProjects/yx/PIFusion/oxford_robotcar/RobotCar_Train.txt"],
     #                                 standardize=Standardize())
