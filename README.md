@@ -1,5 +1,5 @@
 # Multi-modal Feature Based Place Recognition
-  A deep fusion framework for cross-scene place recognition, this work is submitted to RA-L 2022.
+  A deep fusion framework for cross-scene place recognition, this work is accepted by RA-L 2022.  
 How to use of our MMDF:
 First, you need to install some related libraries such as Pytroch and open3d.   
 A requirements.txt can be used to install these libraries conveniently:  
